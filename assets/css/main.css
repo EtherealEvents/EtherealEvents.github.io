@@ -1873,7 +1873,7 @@ body .options .option .label .info .sub {
   }
 
 .titleGallery{
-  margin-top: 30vh;
+  margin-top: 40vh;
 }
 .carouselItem {
   text-align: center !important;
@@ -1885,7 +1885,7 @@ body .options .option .label .info .sub {
   margin-top: 5vh;
 }
 .imageDivGallery{
-  height: 30vh;
+  height: 20vh;
   background-color: white;
   border-radius: 20px;
 }
