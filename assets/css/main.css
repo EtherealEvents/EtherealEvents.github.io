@@ -1871,7 +1871,6 @@ body .options .option .label .info .sub {
     visibility:hidden ;
     display: none;
   }
-}
 
 .titleGallery{
   margin-top: 30vh;
@@ -1889,4 +1888,5 @@ body .options .option .label .info .sub {
   height: 30vh;
   background-color: white;
   border-radius: 20px;
+}
 }
