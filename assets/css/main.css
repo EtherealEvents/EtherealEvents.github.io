@@ -1878,7 +1878,7 @@ body .options .option .label .info .sub {
 .carouselItem {
   text-align: center !important;
   /* background-color: white; */
-  padding: 20px;
+  padding: 20px !important;
   /* width: 100%; */
 }
 .carouselGallery{
@@ -1890,6 +1890,6 @@ body .options .option .label .info .sub {
   border-radius: 20px;
 }
 .work{
-  margin-top: 5vh;
+  margin-top: 0vh;
 }
 }
