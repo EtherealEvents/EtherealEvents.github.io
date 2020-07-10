@@ -62,8 +62,8 @@
               </ul>
             </nav>
             <ul class="l-main-content main-content">
-              <li class="l-section section section--is-active" id="vantajs">
-                <div class="intro" id="vantajs">
+              <li class="l-section section section--is-active" id="vantaDiv">
+                <div class="intro">
                   <div class="intro--banner">
                     <span>
                       <h1>Ethereal <br />Events</h1>
@@ -314,7 +314,7 @@
               </li>
               <li class="l-section section">
                 <div class="work">
-                  <h2>Upcoming Events</h2>
+                  <h2>Events & Collaborators</h2>
                   <div class="work--lockup">
                     <div class="carousel">
                       <div class="carouselItem">
@@ -605,6 +605,20 @@
     </script>
     <script src="https://www.vantajs.com/dist/vanta.halo.min.js"></script>
     <script>
+      function myFunction(x) {
+        if (x.matches) {
+          document.getElementById('vantaDiv').id = 'vantajsPhone';
+
+        } else {  
+          document.getElementById('vantaDiv').id = 'vantajsPhone';
+        }
+      }
+      
+      var x = window.matchMedia("(max-width: 767px)")
+      myFunction(x)
+      x.addListener(myFunction)
+      </script>
+    <script>
       VANTA.HALO({
         el: "#vantajs",
         mouseControls: true,
@@ -617,6 +631,21 @@
         xOffset: 0.1,
         yOffset: 0.14,
         size: 1,
+      });
+    </script>
+    <script>
+      VANTA.HALO({
+        el: "#vantajsPhone",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        baseColor: 0x4aff,
+        backgroundColor: 0x000,
+        amplitudeFactor: 2.5,
+        xOffset: 0,
+        yOffset: 0.1,
+        size: 0.95,
       });
     </script>
     <script
